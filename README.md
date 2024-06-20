@@ -1,8 +1,11 @@
-# React + Vite
+# description
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a one-page React application that allows users to upload images, display them, and send them to a server. The application uses React hooks such as useState and useRef to manage the state and handle file input. Images can be selected from the user's device and previewed before being uploaded. The uploaded image is then sent to a backend server endpoint for further processing.
 
-Currently, two official plugins are available:
+# steps to run 
+    git clone <repository-url>
+    cd <repository-directory>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+    npm install
+    npm run dev
+    
